@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 3px solid red; */
+}
+
+.flex-container {
+    /* border: 3px solid red; */
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+}
+
+.logo {
+    height: 25.99999px;
+    /* border: 2px solid green; */
+    margin: 6px 0 0 0;
+}
+
+span {
+    /* border: 2px solid navy; */
+    text-align: left;
+}
+
+.item {
+    font-size: 26px;
+    word-spacing: 0px;
+    letter-spacing: 0.1px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+    color: rgb(74 74 74);
+}
+
+a {
+    color: rgb(74 74 74);
+}
+
+.item:nth-child(3) {
+    /* background-color: yellow; */f
+    margin-left: 770px;
+    font-size: 14px;
+    word-spacing: 0px;
+    letter-spacing: 0.1px;
+    vertical-align: baseline;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+    /* border: 2px solid navy; */
+}
+
+.bottom {
+    width: 100%;
+    height: 65px;
+    border: 1px inset rgb(255, 119, 0);
+    border-radius: 1px;
+    background-color: #ff7700;
+}
+
+.these {
+    color: white;
+    padding: 6.44989898px 9px 6.44989898px 9px;
+    font-size: 14.907878999px;
+    line-height: 20px;
+    word-spacing: 1px;
+    margin: 0px;
+    font-weight: 700;
+    font-stretch: 150%;
+    text-align: left;
+    /* border: 2px solid firebrick; */
+}
+
+.th {
+    color: white;
+}
+
+
+.down-container {
+    display: flex;
+}
+
+
+.word {
+    padding: 60px 60px 0 60px;
+    /* border: 2px solid red; */
+}
+
+.claret {
+    background-color: blue;
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 60px;
+    height: 60px;
+    left: 47.999%;
+    top: 60.23292992%;
+    border-radius: 200px;
+    
+}
+
+.claret:hover {
+   background-color: navy;
+   transition: 2s;
+   pointer: h;
+}
+
+.caret {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.caret:hover {
+    transform: translateY(2px);
+    transition: 1s;
+}
+
+h1 {
+    /* border: 2px solid green; */
+    color: rgb(32 32 32);
+    margin-bottom: 30px;
+    font-size: 44px;
+    line-height: 48.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 0px 30px;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+    
+}
+
+
+
+.academy {
+    /* border: 2px solid navy; */
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px 0px 24px;
+    padding: 0px 30px;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+}
+
+.grid-body {
+    background-color: rgb(66 133 244);
+    padding-top: 25px;
+    margin-top: -4px;
+}
+
+h2 {
+    color: white;
+    font-size: 35px;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 20px 0 20px 85px;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+    /* background-color: yellow; */
+    /* border: 2px solid black; */
+}
+
+.course-container {
+    /* border: 2px solid hotpink; */
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 30px 100px;
+}
+
+.courses {
+    width: 100%;
+    height: 485px;
+    background-color: white;
+    /* border: 2px solid black; */
+}
+
+.crest {
+    /* border: 2px solid black; */
+    padding: 15px 5px 5px 10px;
+}
+
+h3 {
+    /* border: 2px solid forestgreen; */
+    color: rgb(33 33 33);
+    padding: 10px 9px;
+    font-size: 23.2px;
+    line-height: 34.8px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 12px;
+    font-weight: 700;
+    font-stretch: 100%;
+    text-align: start;
+}
+
+.h-third {
+    color: rgb(33 33 33);
+}
+
+.learn {
+    border: 2px solid white;
+    padding: 7px 16px 7px 18px;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+}
+
+.arrow {
+    /* border: 2px solid blue; */
+    padding: 70px 2px 0 2px;
+    
+}
+
+.arow {
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(255, 119, 0);
+    /* border: 3px solid black; */
+    margin-left: 75%;
+}
+
+.arrow-third {
+    /* border: 2px solid blue; */
+    padding:45px 2px 0 2px;
+    
+}
+
+.arrow-four {
+    /* border: 2px solid blue; */
+    padding:0px 2px;
+    margin-top: -3px;
+    
+}
+
+.arrow-five {
+    /* border: 2px solid blue; */
+    padding:94px 2px 0 2px;;
+}
+
+/* meet the instructors */
+.meet-container {
+    display: grid;
+    grid-template-columns: 2fr;
+    /* column-gap: 20px; */
+    row-gap: 40px;
+    padding: 30px 100px;
+    grid-template-rows: 2fr 2fr;
+    background-color: rgb(250 250 250);
+    /* border: 2px solid red; */
+    
+}
+
+.meet-item {
+    width: 100%;
+    height: 210px;
+    border: 10px thick rgb(242 242 242);
+    background-color: rgb(242 242 242);
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 1px rgb(202, 210, 218);
+    display: flex;
+}
+
+.meet {
+    color: black;
+    font-size: 30px;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 30px 0 20px 100px;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+    /* background-color: yellow; */
+    /* border: 2px solid black; */
+}
+
+.image-holder {
+    /* border: 2px solid green; */
+    width: 18%;
+    
+}
+
+.names {
+    width: 82%;
+    /* border: solid yellow 2px; */
+}
+
+h5 {
+    border-bottom: 1px solid black;
+    color: rgb(31 31 31);
+    padding: 2% 15px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+
+
+}
+
+.instruct {
+    /* border: 2px solid green; */
+    padding: 1.7777% 15px;
+    color: rgb(31 31 31);
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+}
+/* mini courses on youtube */
+
+.mini {
+    padding: 0 100px 0 100px;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 30px 100px;
+    /* border: 2px solid red; */
+}
+
+.box {
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid navy; */
+    border: 10px thick rgb(242 242 242);
+    background-color: rgb(242 242 242);
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 1px rgb(202, 210, 218);
+}
+
+.boxcon {
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: center;
+}
+
+/* additional resources */
+
+.last-bar {
+    background-color: rgb(242 242 242);
+}
+
+.resources {
+    color: black;
+    font-size: 30px;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 30px 0 20px 100px;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: start;
+    /* background-color: rgb(242 242 242); */
+    border-bottom: 1px solid black;
+}
+
+.box-additional {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    /* column-gap: 20px;
+    row-gap: 20px; */
+    padding: 30px 100px;
+    /* border: 2px solid red; */
+    background-color: rgb(242 242 242);
+}
+
+.additional {
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid navy; */
+    border: 10px thick rgb(242 242 242);
+    background-color: rgb(242 242 242);
+    /* border-radius: 5px; */
+    /* box-shadow: 2px 2px 1px 1px rgb(202, 210, 218); */
+}
